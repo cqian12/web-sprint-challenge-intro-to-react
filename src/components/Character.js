@@ -3,11 +3,11 @@ import React from 'react'
 
 
 const Character = props => {
-    const {name} = props
+    const { name } = props
 
     return (
         <div className = 'charSumm'>
-            name
+            <h1 className = 'charName'>{name}</h1>
         </div>
     )
 }
